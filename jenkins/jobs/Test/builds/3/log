@@ -1,0 +1,11 @@
+Started by upstream project "[8mha:////4DFt2k/CtAAQEVRPErtO+7BRqI7PsePWGrvsEaS9gOX1AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JH2X1IKc/Ep9ANFMbsTBAAAA[0mDeploy" build number [8mha:////4BGlMkT5zNHxOaNC0wC2Fb3O7mIRTEWf88GxmluuBLo9AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBl79rPwkfZfUgpz8Sn0jAD6vWFbCAAAA[0m2
+originally caused by:
+ Started by upstream project "[8mha:////4ICGhFfXfTwN+vAMHnmnLZ1L9jHqo634pUORENtApgWHAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JH2n0sycFH0Ahtvdn8AAAAA=[0mBuild" build number [8mha:////4KLumua/0LeNaXAPH5rO2jemGYgtK50+MZpH0PhexSe0AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBh79rPwkfafSzJwUfWMAij/UwMEAAAA=[0m3
+ originally caused by:
+  Started by user [8mha:////4OeFeDHShPq9lfC5Yz8q+VNI8gFmQHGCbQPFuNKkVzVeAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL94vLE3EoAuyS1m8AAAAA=[0mswamy
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/Test
+[Test] $ /bin/sh -xe /tmp/jenkins6149150961301735168.sh
++ echo test is sucsses
+test is sucsses
+Finished: SUCCESS

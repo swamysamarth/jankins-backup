@@ -1,0 +1,12 @@
+Started by upstream project "[8mha:////4ICGhFfXfTwN+vAMHnmnLZ1L9jHqo634pUORENtApgWHAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JH2n0sycFH0Ahtvdn8AAAAA=[0mBuild" build number [8mha:////4C1QpRw9d2rDBqB6ndYsFelly3iU18gGCGm+i3MiwRdtAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBh79rPwkfafSzJwUfXMAk/u5x8EAAAA=[0m7
+originally caused by:
+ Started by user [8mha:////4OeFeDHShPq9lfC5Yz8q+VNI8gFmQHGCbQPFuNKkVzVeAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL94vLE3EoAuyS1m8AAAAA=[0mswamy
+Running as SYSTEM
+Building remotely on [8mha:////4DxEKYjBikT38+gGR5P8m+Gkr9QOVDQrdbZcsItY+zs4AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/TygO3UNDAE4F+e2xgAAAA==[0mnode-01 (lable1) in workspace /opt/jenkins/workspace/Deploy
+[Deploy] $ /bin/sh -xe /tmp/jenkins870753673212356103.sh
++ scp -r /opt/jenkins/workspace/Build/target/hello-world-war-1.0.0.war@172.31.86.8:/home/ec2-user/apache-tomcat-9.0.58/webapps
+usage: scp [-346BCpqrTv] [-c cipher] [-F ssh_config] [-i identity_file]
+            [-J destination] [-l limit] [-o ssh_option] [-P port]
+            [-S program] source ... target
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,17 @@
+Started on Mar 1, 2022 5:05:24 PM
+Started by event from 140.82.115.100 ⇒ http://54.237.230.188:8080/github-webhook/ on Tue Mar 01 17:05:24 UTC 2022
+Using strategy: Default
+[poll] Last Built Revision: Revision 77b2bff56f87408bc81bf0526d11ee76b80ce5fb (refs/remotes/origin/master)
+The recommended git tool is: NONE
+using credential 91725c13-e52a-4180-a973-85ecc46a098e
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+using GIT_SSH to set credentials java
+[INFO] Currently running in a labeled security context
+[INFO] Currently SELinux is 'enforcing' on the host
+ > /usr/bin/chcon --type=ssh_home_t /tmp/jenkins-gitclient-ssh7729719997708450556.key
+ > git ls-remote -h -- https://github.com/swamysamarth/hello-world-war.git # timeout=10
+Found 1 remote heads on https://github.com/swamysamarth/hello-world-war.git
+[poll] Latest remote head revision on refs/heads/master is: 55eedb06f28c8403a05ffa790e2da7b758fdb080
+Done. Took 0.1 sec
+Changes found

@@ -1,0 +1,23 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<slave>
+  <name>node-01</name>
+  <description>this is for java</description>
+  <remoteFS>/opt/jenkins</remoteFS>
+  <numExecutors>3</numExecutors>
+  <mode>NORMAL</mode>
+  <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
+  <launcher class="hudson.plugins.sshslaves.SSHLauncher" plugin="ssh-slaves@1.33.0">
+    <host>172.31.86.8</host>
+    <port>22</port>
+    <credentialsId>90524950-4aa6-40cc-aafb-9da458792291</credentialsId>
+    <launchTimeoutSeconds>60</launchTimeoutSeconds>
+    <maxNumRetries>10</maxNumRetries>
+    <retryWaitTime>15</retryWaitTime>
+    <sshHostKeyVerificationStrategy class="hudson.plugins.sshslaves.verifiers.ManuallyTrustedKeyVerificationStrategy">
+      <requireInitialManualTrust>false</requireInitialManualTrust>
+    </sshHostKeyVerificationStrategy>
+    <tcpNoDelay>true</tcpNoDelay>
+  </launcher>
+  <label>lable1</label>
+  <nodeProperties/>
+</slave>

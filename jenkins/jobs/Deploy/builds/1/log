@@ -1,0 +1,10 @@
+Started by upstream project "[8mha:////4ICGhFfXfTwN+vAMHnmnLZ1L9jHqo634pUORENtApgWHAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/az8JH2n0sycFH0Ahtvdn8AAAAA=[0mBuild" build number [8mha:////4HMdM4dw3RPGisJfIxsoRX3PJzQrBIdZ6ArbPQYf6M8KAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBh79rPwkfafSzJwUfSMAHA/Tt8EAAAA=[0m2
+originally caused by:
+ Started by user [8mha:////4OeFeDHShPq9lfC5Yz8q+VNI8gFmQHGCbQPFuNKkVzVeAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL94vLE3EoAuyS1m8AAAAA=[0mswamy
+Running as SYSTEM
+Building remotely on [8mha:////4CWbH3VYW0g4Er4zVezNw5lAq162PUzN2JJmnUifSrBsAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/TygO3UNjACCRu4vxgAAAA==[0mnode-02 (labal2) in workspace /opt/jenkins/workspace/Deploy
+[Deploy] $ /bin/sh -xe /tmp/jenkins3425387106730329509.sh
++ echo deploy the build to test envirnments
+deploy the build to test envirnments
+Triggering a new build of [8mha:////4B4lXU0miMwgTo2xzxc9kPyjU5R0OpUpeHgroIzBvAV+AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/az8JP2Q1OISfQCjfsn8vwAAAA==[0mTest
+Finished: SUCCESS

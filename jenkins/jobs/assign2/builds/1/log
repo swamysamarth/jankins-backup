@@ -1,0 +1,28 @@
+Started by user [8mha:////4OeFeDHShPq9lfC5Yz8q+VNI8gFmQHGCbQPFuNKkVzVeAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL94vLE3EoAuyS1m8AAAAA=[0mswamy
+Started by user [8mha:////4OeFeDHShPq9lfC5Yz8q+VNI8gFmQHGCbQPFuNKkVzVeAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL94vLE3EoAuyS1m8AAAAA=[0mswamy
+Started by user [8mha:////4OeFeDHShPq9lfC5Yz8q+VNI8gFmQHGCbQPFuNKkVzVeAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL94vLE3EoAuyS1m8AAAAA=[0mswamy
+Started by user [8mha:////4OeFeDHShPq9lfC5Yz8q+VNI8gFmQHGCbQPFuNKkVzVeAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL94vLE3EoAuyS1m8AAAAA=[0mswamy
+Running as SYSTEM
+Building remotely on [8mha:////4CWbH3VYW0g4Er4zVezNw5lAq162PUzN2JJmnUifSrBsAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/TygO3UNjACCRu4vxgAAAA==[0mnode-02 (labal2) in workspace /opt/jenkins/workspace/assign2
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/swamysamarth/swamy-c-project.git
+ > git init /opt/jenkins/workspace/assign2 # timeout=10
+Fetching upstream changes from https://github.com/swamysamarth/swamy-c-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/swamysamarth/swamy-c-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/swamysamarth/swamy-c-project.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 913e1a5ce65d126e3ddcf76213708157cd19a178 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 913e1a5ce65d126e3ddcf76213708157cd19a178 # timeout=10
+Commit message: "Create jenkins file"
+First time build. Skipping changelog.
+[assign2] $ /bin/sh -xe /tmp/jenkins2535649413636114811.sh
++ echo c-program
+c-program
+Finished: SUCCESS

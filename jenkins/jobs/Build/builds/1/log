@@ -1,0 +1,7 @@
+Started by user [8mha:////4OeFeDHShPq9lfC5Yz8q+VNI8gFmQHGCbQPFuNKkVzVeAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL94vLE3EoAuyS1m8AAAAA=[0mswamy
+Running as SYSTEM
+Building remotely on [8mha:////4DxEKYjBikT38+gGR5P8m+Gkr9QOVDQrdbZcsItY+zs4AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/TygO3UNDAE4F+e2xgAAAA==[0mnode-01 (lable1) in workspace /opt/jenkins/workspace/Build
+[Build] $ /bin/sh -xe /tmp/jenkins2530867776441816901.sh
++ echo build is ready
+build is ready
+Finished: SUCCESS

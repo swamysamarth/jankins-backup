@@ -1,0 +1,88 @@
+Started by user [8mha:////4OeFeDHShPq9lfC5Yz8q+VNI8gFmQHGCbQPFuNKkVzVeAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL94vLE3EoAuyS1m8AAAAA=[0mswamy
+Running as SYSTEM
+Building remotely on [8mha:////4CWbH3VYW0g4Er4zVezNw5lAq162PUzN2JJmnUifSrBsAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/TygO3UNjACCRu4vxgAAAA==[0mnode-02 (labal2) in workspace /opt/jenkins/workspace/assign2
+The recommended git tool is: NONE
+using credential c5f4a158-b54c-4c26-8df2-03f41b78e8e0
+ > git rev-parse --resolve-git-dir /opt/jenkins/workspace/assign2/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/swamysamarth/C-project-test.git # timeout=10
+Fetching upstream changes from https://github.com/swamysamarth/C-project-test.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+using GIT_SSH to set credentials c-program
+[INFO] Currently running in a labeled security context
+[INFO] Currently SELinux is 'enforcing' on the host
+ > /usr/bin/chcon --type=ssh_home_t /opt/jenkins/workspace/assign2@tmp/jenkins-gitclient-ssh7652676458991351556.key
+ > git fetch --tags --force --progress -- https://github.com/swamysamarth/C-project-test.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision a98e669d0ee97b6f674267d698f1024e19397b67 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a98e669d0ee97b6f674267d698f1024e19397b67 # timeout=10
+Commit message: "Update big2.c"
+ > git rev-list --no-walk a98e669d0ee97b6f674267d698f1024e19397b67 # timeout=10
+[assign2] $ /bin/sh -xe /tmp/jenkins5990653604247186153.sh
++ cd /opt/jenkins/workspace/assign2
++ make ABC.exe
+gcc -c main.c
+main.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ main() {
+ ^~~~
+main.c: In function ‘main’:
+main.c:4:9: warning: implicit declaration of function ‘biggest’ [-Wimplicit-function-declaration]
+         biggest();
+         ^~~~~~~
+main.c:5:9: warning: implicit declaration of function ‘factorial’ [-Wimplicit-function-declaration]
+         factorial();
+         ^~~~~~~~~
+main.c:6:9: warning: implicit declaration of function ‘reverse’ [-Wimplicit-function-declaration]
+         reverse();
+         ^~~~~~~
+main.c:7:9: warning: implicit declaration of function ‘pallindrome’ [-Wimplicit-function-declaration]
+         pallindrome();
+         ^~~~~~~~~~~
+main.c:8:9: warning: implicit declaration of function ‘biggest3’ [-Wimplicit-function-declaration]
+         biggest3();
+         ^~~~~~~~
+main.c:9:9: warning: implicit declaration of function ‘addnumber’ [-Wimplicit-function-declaration]
+         addnumber();
+         ^~~~~~~~~
+main.c:10:9: warning: implicit declaration of function ‘fibonacci’ [-Wimplicit-function-declaration]
+         fibonacci();
+         ^~~~~~~~~
+main.c:11:9: warning: implicit declaration of function ‘sorting’ [-Wimplicit-function-declaration]
+         sorting();
+         ^~~~~~~
+gcc -c big2.c
+big2.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ biggest()
+ ^~~~~~~
+gcc -c fact.c
+fact.c:2:2: warning: return type defaults to ‘int’ [-Wimplicit-int]
+  factorial() {
+  ^~~~~~~~~
+gcc -c rev.c
+rev.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ reverse()
+ ^~~~~~~
+gcc -c pallindrome.c
+pallindrome.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ pallindrome()
+ ^~~~~~~~~~~
+gcc -c big3.c
+big3.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ biggest3() {
+ ^~~~~~~~
+gcc -c sum.c
+sum.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ addnumber()
+ ^~~~~~~~~
+gcc -c fibonacci.c
+fibonacci.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ fibonacci() {
+ ^~~~~~~~~
+gcc -c sorting.c
+sorting.c:2:1: warning: return type defaults to ‘int’ [-Wimplicit-int]
+ sorting(){
+ ^~~~~~~
+gcc -o ABC.exe main.o big2.o fact.o rev.o pallindrome.o  big3.o sum.o fibonacci.o sorting.o
+Finished: SUCCESS

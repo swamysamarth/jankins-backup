@@ -1,0 +1,26 @@
+Started by user [8mha:////4OeFeDHShPq9lfC5Yz8q+VNI8gFmQHGCbQPFuNKkVzVeAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL94vLE3EoAuyS1m8AAAAA=[0mswamy
+Running as SYSTEM
+Building remotely on [8mha:////4DxEKYjBikT38+gGR5P8m+Gkr9QOVDQrdbZcsItY+zs4AAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/TygO3UNDAE4F+e2xgAAAA==[0mnode-01 (lable1) in workspace /opt/jenkins/workspace/webhook
+The recommended git tool is: NONE
+using credential 91725c13-e52a-4180-a973-85ecc46a098e
+ > git rev-parse --resolve-git-dir /opt/jenkins/workspace/webhook/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/swamysamarth/webhook.git # timeout=10
+Fetching upstream changes from https://github.com/swamysamarth/webhook.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+using GIT_SSH to set credentials java
+[INFO] Currently running in a labeled security context
+[INFO] Currently SELinux is 'enforcing' on the host
+ > /usr/bin/chcon --type=ssh_home_t /opt/jenkins/workspace/webhook@tmp/jenkins-gitclient-ssh5528120034255454181.key
+ > git fetch --tags --force --progress -- https://github.com/swamysamarth/webhook.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 99bc4325ae54ba8d560b7e30ee253e429d20b6e6 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 99bc4325ae54ba8d560b7e30ee253e429d20b6e6 # timeout=10
+Commit message: "Update test"
+ > git rev-list --no-walk 594f3acb96d939b39eeb282e022f9623b3a8773d # timeout=10
+[webhook] $ /bin/sh -xe /tmp/jenkins2148363947257920864.sh
++ echo webhook sucsess
+webhook sucsess
+Finished: SUCCESS
